@@ -4,7 +4,7 @@
 #
 Name     : pypi-retry_decorator
 Version  : 1.1.1
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/6e/e6/bedc75b264cbcbf6e6d0e5071d96d739f540fc09be31744a7a8824c02a8e/retry_decorator-1.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6e/e6/bedc75b264cbcbf6e6d0e5071d96d739f540fc09be31744a7a8824c02a8e/retry_decorator-1.1.1.tar.gz
 Summary  : Retry Decorator
@@ -14,9 +14,6 @@ Requires: pypi-retry_decorator-license = %{version}-%{release}
 Requires: pypi-retry_decorator-python = %{version}-%{release}
 Requires: pypi-retry_decorator-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: retry_decorator
-Provides: retry_decorator-python
-Provides: retry_decorator-python3
 
 %description
 .. image:: https://badge.fury.io/py/retry_decorator.svg
@@ -58,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641490129
+export SOURCE_DATE_EPOCH=1651015823
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
