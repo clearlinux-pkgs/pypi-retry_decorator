@@ -4,7 +4,7 @@
 #
 Name     : pypi-retry_decorator
 Version  : 1.1.1
-Release  : 54
+Release  : 55
 URL      : https://files.pythonhosted.org/packages/6e/e6/bedc75b264cbcbf6e6d0e5071d96d739f540fc09be31744a7a8824c02a8e/retry_decorator-1.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6e/e6/bedc75b264cbcbf6e6d0e5071d96d739f540fc09be31744a7a8824c02a8e/retry_decorator-1.1.1.tar.gz
 Summary  : Retry Decorator
